@@ -32,7 +32,7 @@ img {
 .activities{
       background: #fa003f;
       padding: 10px;
-      color: white;
+      color: #ffffff;
 }
 
 .places-section{
@@ -56,7 +56,8 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px 80px;
+    margin: 20px auto;
+    width: 400px;
 }
 
 .guide-img{
@@ -73,7 +74,7 @@ img {
 #hero-title{
     background: #00916e;
     border-radius: 10px;
-    color: white;
+    color: #ffffff;
     margin-top: 20px;
     font-size: 15px;
     text-align: center;
