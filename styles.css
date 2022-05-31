@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Courgette', cursive;
+}
+
+h3{
+    font-style:;
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXW1ApjANWEmZytGXEQHA9rDLx6Qxwswx1SQ&usqp=CAU);
+    background-size: cover;
+    padding: 50px;
+}
+
+.activities{
+      background: #fa003f;
+      padding: 10px;
+      color: white;
+}
+
+.places-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.place-img{
+    border-radius: 50%;
+    height: 100px;
+    border: 4px solid #ffffff;
+}
+
+.guide{
+    background: #ffcf00;
+    border-radius: 10px;
+    padding: 10px 5px;
+    border-bottom: 5px solid #1D3557;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 80px;
+}
+
+.guide-img{
+    border-radius: 10px;
+}
+
+.guide-profile{
+    display: flex;
+    flex-direction: column;
+    color: #1D3557;
+    
+}
+
+#hero-title{
+    background: #00916e;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    width: 280px;
+     padding:3px;
+     margin: 5px auto;
+    
+}
+
+#hero-description{
+    background: #feefe5;
+    border-radius: 10px;
+    color: #00916e;
+     font-size: 12px;
+     width: 280px;
+     padding: 3px;
+     align-items: center;
+     margin: 5px auto;
+}
+.italic{
+    font-style: italic;
+}
